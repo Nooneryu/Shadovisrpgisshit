@@ -1,0 +1,1118 @@
+|    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]]--
+
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))();
+local Window = Rayfield:CreateWindow({Name="Nickjtoh power",Icon=0,LoadingTitle="All damge script",LoadingSubtitle="by Nickjtoh",Theme="Default",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Hub"},Discord={Enabled=false,Invite="noinvitelink",RememberJoins=true},KeySystem=true,KeySettings={Title="Key System",Subtitle="Key System",Note="Idk only chosen can access",FileName="Key",SaveKey=true,GrabKeyFromSite=false,Key={"Nickjtoh"}}});
+local Tab = Window:CreateTab("Damge", 4483362458);
+local Toggle = Tab:CreateToggle({Name="Inf Artificial hood stack",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		_G.loop2 = true;
+		while _G.loop2 do
+			local FlatIdent_66556 = 0;
+			local args;
+			while true do
+				if (FlatIdent_66556 == 0) then
+					args = {[1]="Input",[2]="ArtiphaseArtificer's Hood",[3]=6,[4]="Phase"};
+					game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+					FlatIdent_66556 = 1;
+				end
+				if (FlatIdent_66556 == 1) then
+					wait();
+					break;
+				end
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Inf Stunner",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_61538 = 0;
+		while true do
+			if (FlatIdent_61538 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_67C40 = 0;
+					local args;
+					while true do
+						if (1 == FlatIdent_67C40) then
+							wait();
+							break;
+						end
+						if (FlatIdent_67C40 == 0) then
+							args = {[1]="Input",[2]="Reality KnifeReality Dagger",[3]=8,[4]="Stunner"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_67C40 = 1;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Inf Slash",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_8D83D = 0;
+		while true do
+			if (FlatIdent_8D83D == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_1743D = 0;
+					local args;
+					while true do
+						if (FlatIdent_1743D == 0) then
+							args = {[1]="Input",[2]="Reality KnifeReality Dagger",[3]=8,[4]="Reality"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_1743D = 1;
+						end
+						if (FlatIdent_1743D == 1) then
+							wait();
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Button = Tab:CreateButton({Name="Insane artificial hood stack",Callback=function()
+	for i = 1, 30 do
+		local FlatIdent_25011 = 0;
+		local args;
+		while true do
+			if (FlatIdent_25011 == 0) then
+				args = {[1]="Input",[2]="ArtiphaseArtificer's Hood",[3]=6,[4]="Phase"};
+				game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
+local Button = Tab:CreateButton({Name="Insane Stunner x2 damge",Callback=function()
+	for i = 1, 60 do
+		local FlatIdent_7DD24 = 0;
+		local args;
+		while true do
+			if (FlatIdent_7DD24 == 0) then
+				args = {[1]="Input",[2]="Reality KnifeReality Dagger",[3]=8,[4]="Stunner"};
+				game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
+local Button = Tab:CreateButton({Name="God Slash",Callback=function()
+	for i = 1, 70 do
+		local FlatIdent_781F8 = 0;
+		local args;
+		while true do
+			if (FlatIdent_781F8 == 0) then
+				args = {[1]="Input",[2]="Reality KnifeReality Dagger",[3]=8,[4]="Reality"};
+				game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Loadout Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_6FA1 = 0;
+		while true do
+			if (0 == FlatIdent_6FA1) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_61B23 = 0;
+					local args;
+					while true do
+						if (FlatIdent_61B23 == 0) then
+							args = {[1]="LoadoutChange",[2]=1};
+							game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+							FlatIdent_61B23 = 1;
+						end
+						if (FlatIdent_61B23 == 1) then
+							wait();
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Fed Chest Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_946F = 0;
+		while true do
+			if (FlatIdent_946F == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local args = {[1]="ChangeEquipment",[2]=622};
+					game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+					wait();
+					local args = {[1]="ChangeEquipment",[2]=622,[3]=true};
+					game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+					wait();
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Button = Tab:CreateButton({Name="Dotf Damge stack",Action=function()
+	for i = 1, 5 do
+		local FlatIdent_6053C = 0;
+		local args;
+		while true do
+			if (FlatIdent_6053C == 0) then
+				args = {[1]="Input",[2]="DukeDuke of the Federation",[3]=20,[4]="E"};
+				game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
+local Button = Tab:CreateButton({Name="Gunshot Memento",Interact="Click",Callback=function()
+	local function getShotVector(offsetAngle)
+		local character = game:GetService("Players").LocalPlayer.Character;
+		local rootPart = character and character:FindFirstChild("HumanoidRootPart");
+		if rootPart then
+			local FlatIdent_8F59B = 0;
+			local rotation;
+			while true do
+				if (FlatIdent_8F59B == 0) then
+					rotation = CFrame.Angles(0, math.rad(offsetAngle), 0);
+					return (rootPart.CFrame * rotation).LookVector * math.random(8, 12);
+				end
+			end
+		else
+			return Vector3.new(0, 0, 0);
+		end
+	end
+	for i = 1, 3 do
+		local FlatIdent_2AC68 = 0;
+		while true do
+			if (FlatIdent_2AC68 == 0) then
+				for angle = 0, 360, 20 do
+					local FlatIdent_1B51D = 0;
+					local args;
+					while true do
+						if (FlatIdent_1B51D == 0) then
+							args = {[1]="Input",[2]="MoriMemento Mori",[3]=2,[4]="LMB",[5]=getShotVector(angle)};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							break;
+						end
+					end
+				end
+				wait();
+				break;
+			end
+		end
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Memento Mori R",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_17196 = 0;
+		while true do
+			if (FlatIdent_17196 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local args = {[1]="Input",[2]="MoriMemento Mori",[3]=9,[4]="R"};
+					game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+					wait();
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Button = Tab:CreateButton({Name="Tornardo memento",Interact="Click",Callback=function()
+	local FlatIdent_12544 = 0;
+	local getShotVector;
+	while true do
+		if (FlatIdent_12544 == 0) then
+			getShotVector = nil;
+			function getShotVector(offsetAngle)
+				local FlatIdent_74348 = 0;
+				local character;
+				local rootPart;
+				while true do
+					if (FlatIdent_74348 == 1) then
+						if rootPart then
+							local FlatIdent_981A3 = 0;
+							local rotation;
+							while true do
+								if (FlatIdent_981A3 == 0) then
+									rotation = CFrame.Angles(0, math.rad(offsetAngle), 0);
+									return (rootPart.CFrame * rotation).LookVector * math.random(8, 12);
+								end
+							end
+						else
+							return Vector3.new(0, 0, 0);
+						end
+						break;
+					end
+					if (FlatIdent_74348 == 0) then
+						character = game:GetService("Players").LocalPlayer.Character;
+						rootPart = character and character:FindFirstChild("HumanoidRootPart");
+						FlatIdent_74348 = 1;
+					end
+				end
+			end
+			FlatIdent_12544 = 1;
+		end
+		if (FlatIdent_12544 == 1) then
+			for i = 1, 20 do
+				local FlatIdent_6B983 = 0;
+				while true do
+					if (FlatIdent_6B983 == 0) then
+						for angle = 0, 360, 20 do
+							local FlatIdent_7909D = 0;
+							local args;
+							while true do
+								if (FlatIdent_7909D == 0) then
+									args = {[1]="Input",[2]="MoriMemento Mori",[3]=11.25,[4]="F",[5]=getShotVector(angle)};
+									game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+									break;
+								end
+							end
+						end
+						wait();
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end});
+local Tab = Window:CreateTab("Spam", 4483362458);
+local Input = Tab:CreateInput({Name="Enter Npc Name Kills Npc Use Sword Of Wicked",CurrentValue="",PlaceholderText="Type Npc here...",RemoveNameAfterFocusLost=false,Flag="Input1",Callback=function(Text)
+	if (Name ~= "") then
+		while wait() do
+			local args = {[1]="Input",[2]="WickednessSword of the Wicked",[3]=0,[4]="WeaveEvent",[5]=workspace.NPCs:FindFirstChild(Text).HumanoidRootPart};
+			game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+		end
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Reality Dagger R Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		_G.loop2 = true;
+		while _G.loop2 do
+			local FlatIdent_64E40 = 0;
+			local args;
+			while true do
+				if (FlatIdent_64E40 == 0) then
+					args = {[1]="Input",[2]="Reality KnifeReality Dagger",[3]=0,[4]="Stunner"};
+					game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+					FlatIdent_64E40 = 1;
+				end
+				if (FlatIdent_64E40 == 1) then
+					wait(0.2);
+					break;
+				end
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Fed Chest Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_207CC = 0;
+		while true do
+			if (FlatIdent_207CC == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_6DC53 = 0;
+					local args;
+					while true do
+						if (0 == FlatIdent_6DC53) then
+							args = {[1]="ChangeEquipment",[2]=2216};
+							game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+							FlatIdent_6DC53 = 1;
+						end
+						if (1 == FlatIdent_6DC53) then
+							wait();
+							args = {[1]="ChangeEquipment",[2]=2216,[3]=true};
+							FlatIdent_6DC53 = 2;
+						end
+						if (2 == FlatIdent_6DC53) then
+							game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+							wait();
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Everwinter m1 Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_28F3E = 0;
+		while true do
+			if (FlatIdent_28F3E == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local args = {[1]="Input",[2]="FrigpyreusEverwinter Blade",[3]=6,[4]="Bladestorm",[5]=Vector3.new(2914.81396484375, -13.31732177734375, 3138.40771484375)};
+					game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+					wait();
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Star Aura Needed Lord of Federation",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_2F37F = 0;
+		while true do
+			if (FlatIdent_2F37F == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_5998C = 0;
+					local args;
+					while true do
+						if (1 == FlatIdent_5998C) then
+							wait();
+							break;
+						end
+						if (FlatIdent_5998C == 0) then
+							args = {[1]="Input",[2]="Lord of the Federation",[3]=20,[4]="Galaxy"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_5998C = 1;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Kill Aura Needed Lord of Federation",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_47ABB = 0;
+		while true do
+			if (FlatIdent_47ABB == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_69253 = 0;
+					local args;
+					while true do
+						if (0 == FlatIdent_69253) then
+							args = {[1]="Input",[2]="Lord of the Federation",[3]=20,[4]="Pull"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_69253 = 1;
+						end
+						if (1 == FlatIdent_69253) then
+							wait(1.5);
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Pull Npcs",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_6A091 = 0;
+		while true do
+			if (FlatIdent_6A091 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_882F4 = 0;
+					local args;
+					while true do
+						if (FlatIdent_882F4 == 0) then
+							args = {[1]="Input",[2]="Aureus XDominus Aureus",[3]=5,[4]="Flash"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_882F4 = 1;
+						end
+						if (FlatIdent_882F4 == 1) then
+							wait();
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Button = Tab:CreateButton({Name="Lag People Rb 1",Interact="Click",Callback=function()
+	local FlatIdent_6225E = 0;
+	local args;
+	while true do
+		if (FlatIdent_6225E == 0) then
+			args = {[1]="Input",[2]="Aureus XDominus Aureus",[3]=5,[4]="Retribe"};
+			game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end});
+local Button = Tab:CreateButton({Name="Memento OF FIRE",Interact="Click",Callback=function()
+	local FlatIdent_21DDC = 0;
+	local getShotVector;
+	while true do
+		if (FlatIdent_21DDC == 1) then
+			for i = 1, 3 do
+				local FlatIdent_67517 = 0;
+				while true do
+					if (FlatIdent_67517 == 0) then
+						for angle = 0, 360, 20 do
+							local FlatIdent_628E3 = 0;
+							local args;
+							while true do
+								if (FlatIdent_628E3 == 0) then
+									args = {[1]="Input",[2]="MoriMemento Mori",[3]=2,[4]="LMB",[5]=getShotVector(angle)};
+									game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+									break;
+								end
+							end
+						end
+						wait();
+						break;
+					end
+				end
+			end
+			break;
+		end
+		if (FlatIdent_21DDC == 0) then
+			getShotVector = nil;
+			function getShotVector(offsetAngle)
+				local FlatIdent_67691 = 0;
+				local character;
+				local rootPart;
+				while true do
+					if (FlatIdent_67691 == 1) then
+						if rootPart then
+							local FlatIdent_284EA = 0;
+							local rotation;
+							while true do
+								if (FlatIdent_284EA == 0) then
+									rotation = CFrame.Angles(0, math.rad(offsetAngle), 0);
+									return (rootPart.CFrame * rotation).LookVector * math.random(8, 12);
+								end
+							end
+						else
+							return Vector3.new(0, 0, 0);
+						end
+						break;
+					end
+					if (FlatIdent_67691 == 0) then
+						character = game:GetService("Players").LocalPlayer.Character;
+						rootPart = character and character:FindFirstChild("HumanoidRootPart");
+						FlatIdent_67691 = 1;
+					end
+				end
+			end
+			FlatIdent_21DDC = 1;
+		end
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Loadout Spam",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_2E34E = 0;
+		while true do
+			if (FlatIdent_2E34E == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local args = {[1]="LoadoutChange",[2]=1};
+					game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+					wait();
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Insta Shutdown",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_2A9F7 = 0;
+		while true do
+			if (FlatIdent_2A9F7 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_91B54 = 0;
+					local args;
+					while true do
+						if (FlatIdent_91B54 == 1) then
+							wait();
+							break;
+						end
+						if (FlatIdent_91B54 == 0) then
+							args = {[1]="Input",[2]="Crimson Scythe",[3]=3,[4]="Wheel"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_91B54 = 1;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="Become Op",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_5E109 = 0;
+		while true do
+			if (FlatIdent_5E109 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_2DA99 = 0;
+					local args;
+					while true do
+						if (FlatIdent_2DA99 == 1) then
+							wait();
+							break;
+						end
+						if (FlatIdent_2DA99 == 0) then
+							args = {[1]="Input",[2]="ArtiphaseArtificer's Hood",[3]=6,[4]="Phase"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_2DA99 = 1;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="INF BLOCK",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		local FlatIdent_912A7 = 0;
+		while true do
+			if (FlatIdent_912A7 == 0) then
+				_G.loop2 = true;
+				while _G.loop2 do
+					local FlatIdent_69C4C = 0;
+					local args;
+					while true do
+						if (FlatIdent_69C4C == 0) then
+							args = {[1]="Input",[2]="Golden Scion Shield",[3]=0,[4]="Block"};
+							game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+							FlatIdent_69C4C = 1;
+						end
+						if (1 == FlatIdent_69C4C) then
+							wait();
+							break;
+						end
+					end
+				end
+				break;
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local Toggle = Tab:CreateToggle({Name="ELIMINATOR RINGS",CurrentValue=false,Flag="Toggle1",Callback=function(CurrentValue)
+	if CurrentValue then
+		_G.loop2 = true;
+		while _G.loop2 do
+			local FlatIdent_8E5B4 = 0;
+			local args;
+			while true do
+				if (FlatIdent_8E5B4 == 1) then
+					wait();
+					break;
+				end
+				if (FlatIdent_8E5B4 == 0) then
+					args = {[1]="Input",[2]="The Eliminator",[3]=0.6734006734006734,[4]="Toss"};
+					game:GetService("Players").LocalPlayer.Character.Combat.RemoteEvent:FireServer(unpack(args));
+					FlatIdent_8E5B4 = 1;
+				end
+			end
+		end
+	else
+		_G.loop2 = false;
+	end
+end});
+local player = game:GetService("Players").LocalPlayer;
+local isSpammingEnabledR = false;
+local isSpammingEnabledF = false;
+local isSpammingEnabledTrowel = false;
+local isSpammingEnabledLMBDarkmatter = false;
+local isSpammingEnabledCrescendo = false;
+local isSpammingEnabledArmedesF = false;
+local isSpammingEnabledMementoLMB = false;
+local isSpammingEnabledArmedesR = false;
+local isHoldingR = false;
+local isHoldingF = false;
+local isHoldingTrowel = false;
+local isHoldingLMBDarkmatter = false;
+local isHoldingCrescendo = false;
+local isHoldingArmedesF = false;
+local isHoldingMementoLMB = false;
+local isHoldingArmedesR = false;
+local function fireRemoteR()
+	local FlatIdent_7063 = 0;
+	local mouse;
+	local mousePosition;
+	local args;
+	while true do
+		if (FlatIdent_7063 == 0) then
+			mouse = player:GetMouse();
+			mousePosition = mouse.Hit.Position;
+			FlatIdent_7063 = 1;
+		end
+		if (FlatIdent_7063 == 1) then
+			args = {[1]="Input",[2]="MoriMemento Mori",[3]=9,[4]="R",[5]=mousePosition};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end
+local function fireRemoteF()
+	local FlatIdent_3B08E = 0;
+	local mouse;
+	local mousePosition;
+	local args;
+	while true do
+		if (FlatIdent_3B08E == 0) then
+			mouse = player:GetMouse();
+			mousePosition = mouse.Hit.Position;
+			FlatIdent_3B08E = 1;
+		end
+		if (FlatIdent_3B08E == 1) then
+			args = {[1]="Input",[2]="MoriMemento Mori",[3]=11.25,[4]="F",[5]=mousePosition};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end
+local function fireRemoteTrowel()
+	local FlatIdent_3CDED = 0;
+	local mouse;
+	local mousePosition;
+	local args;
+	while true do
+		if (0 == FlatIdent_3CDED) then
+			mouse = player:GetMouse();
+			mousePosition = mouse.Hit.Position;
+			FlatIdent_3CDED = 1;
+		end
+		if (FlatIdent_3CDED == 1) then
+			args = {[1]="Input",[2]="Trowel",[3]=1.65,[4]="Trowel",[5]=mousePosition};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end
+local function fireRemoteDarkmatter()
+	local FlatIdent_3B868 = 0;
+	local args;
+	while true do
+		if (FlatIdent_3B868 == 0) then
+			args = {[1]="Input",[2]="MatterDarkmatter Fists",[3]=7,[4]="Pound"};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end
+local function fireRemoteCrescendo()
+	local FlatIdent_D14D = 0;
+	local args;
+	while true do
+		if (FlatIdent_D14D == 0) then
+			args = {[1]="Input",[2]="Crescendo",[3]=11,[4]="Laser"};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+	end
+end
+local function fireRemoteArmedesF()
+	local args = {[1]="Input",[2]="ArmedesDuke of the Fallen Federation",[3]=12,[4]="Laser"};
+	player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+end
+local function fireRemoteMementoLMB()
+	local FlatIdent_803FB = 0;
+	local mouse;
+	local mousePosition;
+	local args;
+	while true do
+		if (FlatIdent_803FB == 1) then
+			args = {[1]="Input",[2]="MoriMemento Mori",[3]=2,[4]="LMB",[5]=mousePosition};
+			player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+			break;
+		end
+		if (FlatIdent_803FB == 0) then
+			mouse = player:GetMouse();
+			mousePosition = mouse.Hit.Position;
+			FlatIdent_803FB = 1;
+		end
+	end
+end
+local function fireRemoteArmedesR()
+	local args = {[1]="Input",[2]="ArmedesDuke of the Fallen Federation",[3]=20,[4]="Meteors"};
+	player.Character.Combat.RemoteEvent:FireServer(unpack(args));
+end
+local function startSpammingR()
+	local FlatIdent_10DED = 0;
+	while true do
+		if (FlatIdent_10DED == 0) then
+			isHoldingR = true;
+			while isHoldingR and isSpammingEnabledR do
+				local FlatIdent_30F75 = 0;
+				while true do
+					if (0 == FlatIdent_30F75) then
+						fireRemoteR();
+						task.wait(0.1);
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingR()
+	isHoldingR = false;
+end
+local function startSpammingF()
+	local FlatIdent_8BA1E = 0;
+	while true do
+		if (FlatIdent_8BA1E == 0) then
+			isHoldingF = true;
+			while isHoldingF and isSpammingEnabledF do
+				local FlatIdent_527C6 = 0;
+				while true do
+					if (FlatIdent_527C6 == 0) then
+						fireRemoteF();
+						task.wait(0.1);
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingF()
+	isHoldingF = false;
+end
+local function startSpammingTrowel()
+	local FlatIdent_B1F4 = 0;
+	while true do
+		if (FlatIdent_B1F4 == 0) then
+			isHoldingTrowel = true;
+			while isHoldingTrowel and isSpammingEnabledTrowel do
+				fireRemoteTrowel();
+				task.wait(0.1);
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingTrowel()
+	isHoldingTrowel = false;
+end
+local function startSpammingDarkmatter()
+	isHoldingLMBDarkmatter = true;
+	while isHoldingLMBDarkmatter and isSpammingEnabledLMBDarkmatter do
+		local FlatIdent_656E9 = 0;
+		while true do
+			if (FlatIdent_656E9 == 0) then
+				fireRemoteDarkmatter();
+				task.wait(0.1);
+				break;
+			end
+		end
+	end
+end
+local function stopSpammingDarkmatter()
+	isHoldingLMBDarkmatter = false;
+end
+local function startSpammingCrescendo()
+	local FlatIdent_1BA2F = 0;
+	while true do
+		if (FlatIdent_1BA2F == 0) then
+			isHoldingCrescendo = true;
+			while isHoldingCrescendo and isSpammingEnabledCrescendo do
+				local FlatIdent_1512 = 0;
+				while true do
+					if (0 == FlatIdent_1512) then
+						fireRemoteCrescendo();
+						task.wait(0.1);
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingCrescendo()
+	isHoldingCrescendo = false;
+end
+local function startSpammingArmedesF()
+	local FlatIdent_229D1 = 0;
+	while true do
+		if (FlatIdent_229D1 == 0) then
+			isHoldingArmedesF = true;
+			while isHoldingArmedesF and isSpammingEnabledArmedesF do
+				local FlatIdent_71E8F = 0;
+				while true do
+					if (FlatIdent_71E8F == 0) then
+						fireRemoteArmedesF();
+						task.wait(0.1);
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingArmedesF()
+	isHoldingArmedesF = false;
+end
+local function startSpammingMementoLMB()
+	isHoldingMementoLMB = true;
+	while isHoldingMementoLMB and isSpammingEnabledMementoLMB do
+		local FlatIdent_51C44 = 0;
+		while true do
+			if (FlatIdent_51C44 == 0) then
+				fireRemoteMementoLMB();
+				task.wait(0.1);
+				break;
+			end
+		end
+	end
+end
+local function stopSpammingMementoLMB()
+	isHoldingMementoLMB = false;
+end
+local function startSpammingArmedesR()
+	local FlatIdent_92514 = 0;
+	while true do
+		if (FlatIdent_92514 == 0) then
+			isHoldingArmedesR = true;
+			while isHoldingArmedesR and isSpammingEnabledArmedesR do
+				fireRemoteArmedesR();
+				task.wait(0.1);
+			end
+			break;
+		end
+	end
+end
+local function stopSpammingArmedesR()
+	isHoldingArmedesR = false;
+end
+local ToggleR = Tab:CreateToggle({Name="Memento Mori (R)",CurrentValue=false,Flag="SpammingToggleR",Callback=function(Value)
+	isSpammingEnabledR = Value;
+end});
+local ToggleF = Tab:CreateToggle({Name="Memento Mori (F)",CurrentValue=false,Flag="SpammingToggleF",Callback=function(Value)
+	isSpammingEnabledF = Value;
+end});
+local ToggleTrowel = Tab:CreateToggle({Name="Trowel (LMB)",CurrentValue=false,Flag="SpammingToggleTrowel",Callback=function(Value)
+	isSpammingEnabledTrowel = Value;
+end});
+local ToggleDarkmatter = Tab:CreateToggle({Name="Darkmatter Fists (LMB)",CurrentValue=false,Flag="SpammingToggleDarkmatter",Callback=function(Value)
+	isSpammingEnabledLMBDarkmatter = Value;
+end});
+local ToggleCrescendo = Tab:CreateToggle({Name="Crescendo (R)",CurrentValue=false,Flag="SpammingToggleCrescendo",Callback=function(Value)
+	isSpammingEnabledCrescendo = Value;
+end});
+local ToggleArmedesF = Tab:CreateToggle({Name="Armedes (F)",CurrentValue=false,Flag="SpammingToggleArmedesF",Callback=function(Value)
+	isSpammingEnabledArmedesF = Value;
+end});
+local ToggleMementoLMB = Tab:CreateToggle({Name="Memento Mori (LMB - At Mouse)",CurrentValue=false,Flag="SpammingToggleMementoLMB",Callback=function(Value)
+	isSpammingEnabledMementoLMB = Value;
+end});
+local ToggleArmedesR = Tab:CreateToggle({Name="Armedes Meteors (R)",CurrentValue=false,Flag="SpammingToggleArmedesR",Callback=function(Value)
+	isSpammingEnabledArmedesR = Value;
+end});
+game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
+	local FlatIdent_13B77 = 0;
+	while true do
+		if (0 == FlatIdent_13B77) then
+			if gameProcessed then
+				return;
+			end
+			if ((input.KeyCode == Enum.KeyCode.R) and isSpammingEnabledR) then
+				startSpammingR();
+			elseif ((input.KeyCode == Enum.KeyCode.F) and isSpammingEnabledF) then
+				startSpammingF();
+			elseif (input.UserInputType == Enum.UserInputType.MouseButton1) then
+				if isSpammingEnabledTrowel then
+					startSpammingTrowel();
+				elseif isSpammingEnabledLMBDarkmatter then
+					startSpammingDarkmatter();
+				elseif isSpammingEnabledMementoLMB then
+					startSpammingMementoLMB();
+				elseif isSpammingEnabledArmedesR then
+					startSpammingArmedesR();
+				end
+			end
+			break;
+		end
+	end
+end);
+game:GetService("UserInputService").InputEnded:Connect(function(input)
+	if (input.KeyCode == Enum.KeyCode.R) then
+		local FlatIdent_94CF9 = 0;
+		while true do
+			if (FlatIdent_94CF9 == 0) then
+				stopSpammingR();
+				stopSpammingArmedesR();
+				break;
+			end
+		end
+	elseif (input.KeyCode == Enum.KeyCode.F) then
+		local FlatIdent_98327 = 0;
+		while true do
+			if (FlatIdent_98327 == 0) then
+				stopSpammingF();
+				stopSpammingArmedesF();
+				break;
+			end
+		end
+	elseif (input.UserInputType == Enum.UserInputType.MouseButton1) then
+		local FlatIdent_77529 = 0;
+		while true do
+			if (0 == FlatIdent_77529) then
+				stopSpammingTrowel();
+				stopSpammingDarkmatter();
+				FlatIdent_77529 = 1;
+			end
+			if (1 == FlatIdent_77529) then
+				stopSpammingMementoLMB();
+				break;
+			end
+		end
+	end
+end);
+local Tab = Window:CreateTab("Levels", 4483362458);
+local Button = Tab:CreateButton({Name="Level Storing Gui",Callback=function()
+	game:GetService("Players").LocalPlayer.PlayerGui.Interface.LevelStow.Active = true;
+	game:GetService("Players").LocalPlayer.PlayerGui.Interface.LevelStow.Visible = true;
+end});
+local Input = Tab:CreateInput({Name="Enter Model/Part Name",CurrentValue="",PlaceholderText="Type the name of the model/part",RemoveTextAfterFocusLost=false,Flag="Input1",Callback=function(Text)
+	local FlatIdent_506A5 = 0;
+	local findObjectInFolder;
+	while true do
+		if (FlatIdent_506A5 == 0) then
+			findObjectInFolder = nil;
+			function findObjectInFolder(folder, name)
+				local FlatIdent_1454F = 0;
+				while true do
+					if (FlatIdent_1454F == 0) then
+						for _, object in ipairs(folder:GetChildren()) do
+							if (object.Name == name) then
+								return object;
+							elseif (object:IsA("Model") or object:IsA("Folder")) then
+								local result = findObjectInFolder(object, name);
+								if result then
+									return result;
+								end
+							end
+						end
+						return nil;
+					end
+				end
+			end
+			FlatIdent_506A5 = 1;
+		end
+		if (FlatIdent_506A5 == 1) then
+			if (Text ~= "") then
+				local target = game.Workspace:FindFirstChild(Text) or findObjectInFolder(game.Workspace, Text);
+				if target then
+					if (target:IsA("Model") or target:IsA("Part")) then
+						local FlatIdent_8E29D = 0;
+						local char;
+						while true do
+							if (FlatIdent_8E29D == 0) then
+								char = game.Players.LocalPlayer.Character;
+								if char then
+									local FlatIdent_3831 = 0;
+									local hrp;
+									while true do
+										if (FlatIdent_3831 == 0) then
+											hrp = char:WaitForChild("HumanoidRootPart");
+											hrp.CFrame = target.CFrame;
+											break;
+										end
+									end
+								end
+								break;
+							end
+						end
+					else
+						Rayfield:Notify({Title="Invalid Object",Content="Please enter a valid Model or Part name.",Duration=3,Image=4483362458});
+					end
+				else
+					Rayfield:Notify({Title="Object Not Found",Content="Could not find an object with that name in the workspace or folders.",Duration=3,Image=4483362458});
+				end
+			else
+				Rayfield:Notify({Title="Empty Input",Content="Please enter a model or part name.",Duration=3,Image=4483362458});
+			end
+			break;
+		end
+	end
+end});
+local Input = Tab:CreateInput({Name="Enter Levels Store",CurrentValue="",PlaceholderText="Enter Levels To Store",RemoveTextAfterFocusLost=false,Flag="Input1",Callback=function(Value)
+	if (Value ~= "") then
+		local FlatIdent_21E03 = 0;
+		local args;
+		while true do
+			if (FlatIdent_21E03 == 0) then
+				args = {[1]="StowLevel",[2]=Value};
+				game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
+local Input = Tab:CreateInput({Name="Enter Levels Retrieve",CurrentValue="",PlaceholderText="Enter Levels To Retrieve",RemoveTextAfterFocusLost=false,Flag="Input1",Callback=function(Value)
+	if (Value ~= "") then
+		local FlatIdent_1F620 = 0;
+		local args;
+		while true do
+			if (FlatIdent_1F620 == 0) then
+				args = {[1]="RetrieveLevel",[2]=Value};
+				game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args));
+				break;
+			end
+		end
+	end
+end});
